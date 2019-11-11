@@ -1,6 +1,27 @@
-body{
-  background-image: url('./vaporwaveCat.jpg');
+@media only screen and (min-width: 800px){
+  body{
+  background-image: url('./vaporwave.jpg');
   background-size: cover;
   background-position:  center center;
   background-attachment: fixed;
+}
+.line{
+  color: aqua;
+}
+}
+
+@media only screen and (max-width: 800px){
+  body {
+  background-image: url('./vaporwaveSmall.jpg');
+  background-size: cover;
+  background-position:  center center;
+  background-attachment: fixed;
+  }
+  .line{
+    color: aqua;
+  }
+}
+
+li, Link, ul {
+  color: aqua;
 }

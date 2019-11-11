@@ -6,6 +6,12 @@ class Contact extends Component {
         return (
             <div className="contact">
                 <h1> Aqui irán mis datos de contacto</h1>
+           <ul>
+               <li>Telefono</li>
+               <li>Email</li>
+               <li>GitHub</li>
+               <li>LinkedIn</li>
+           </ul>
             </div>
 
         )
