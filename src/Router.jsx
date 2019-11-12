@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Home from './Components/Home';
 import AboutMe from './Components/AboutMe';
 import Projects from './Components/Projects';
@@ -13,7 +13,7 @@ import Espanol from './Components/Espanol';
 class Routes extends Component {
     render() {
         return (
-            <BrowserRouter>
+            <HashRouter>
                 <Switch>
                     <Route exact path='/english' component={English} />
                     <Route exact path='/english/aboutMe' component={AboutMe} />
@@ -26,7 +26,7 @@ class Routes extends Component {
                     <Route exact path='/' component={Home} />
                     <Route path='*' component={() => '404 NOT FOUND'} />
                 </Switch>
-            </BrowserRouter>
+            </HashRouter>
         )
     }
 }
