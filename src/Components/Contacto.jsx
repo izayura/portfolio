@@ -1,10 +1,12 @@
 import React,{Component} from 'react';
 import './Contact.css';
+import Espanol from './Espanol';
 
-class Contact extends Component {
+class Contacto extends Component {
     render() {
         return (
             <div className="contact">
+                <Espanol />
                 <h1> Aqui irán mis datos de contacto</h1>
            <ul>
                <li>Telefono</li>
@@ -17,4 +19,4 @@ class Contact extends Component {
         )
     }
 }
-export default Contact;
+export default Contacto;

@@ -1,10 +1,8 @@
 @media only screen and (min-width: 800px){
-  body{
-  background-image: url('./vaporwave.jpg');
-  background-size: cover;
-  background-position:  center center;
-  background-attachment: fixed;
-}
+  
+.Menu{
+  background-color: indigo;
+}  
 .line{
   color: aqua;
 }
