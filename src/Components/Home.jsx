@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
-import './Home.css';
+import '../Components/CSS/Home.css';
 import Name from './name.png';
 import English from './englishBtn.png';
 import Espanol from './espanolBtn.png';
@@ -15,9 +15,9 @@ class Home extends Component {
           <img id='Select' alt='Select your language' src={Select} />
           <div id='Language'>
             <img className='btnLanguage' alt='English' src={English}
-              onClick={() => this.props.history.push('/english')} />
+              onClick={() => this.props.history.push('/english/aboutMe')} />
             <img className='btnLanguage' alt='Español' src={Espanol}
-              onClick={() => this.props.history.push('/espanol')} />
+              onClick={() => this.props.history.push('/espanol/sobreMi')} />
           </div>
         </div>
       </div>

@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 import Home from './Components/Home';
-import AboutMe from './Components/AboutMe';
-import Projects from './Components/Projects';
-import Contact from './Components/Contact';
-import English from './Components/English';
-import SobreMi from './Components/SobreMi';
-import Proyectos from './Components/Proyectos';
-import Contacto from './Components/Contacto';
-import Espanol from './Components/Espanol';
+import AboutMe from './Components/English/AboutMe';
+import Projects from './Components/English/Projects';
+import Contact from './Components/English/Contact';
+import English from './Components/English/English';
+import SobreMi from './Components/Español/SobreMi';
+import Proyectos from './Components/Español/Proyectos';
+import Contacto from './Components/Español/Contacto';
+import Espanol from './Components/Español/Espanol';
 
 class Routes extends Component {
     render() {

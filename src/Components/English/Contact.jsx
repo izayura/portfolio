@@ -1,11 +1,11 @@
 import React,{Component} from 'react';
-import './Contact.css';
+import '../CSS/Contact.css';
 import English from './English';
 
 class Contact extends Component {
     render() {
         return (
-            <div className="contact">
+            <div id='contact' className='content'>
                 <English />
                 <h1> Here will be differents ways to contact me</h1>
            <ul>

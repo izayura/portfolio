@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import './Projects.css';
-import Espanol from './Espanol';
+import '../CSS/Projects.css';
+import English from './English';
 
-class Proyectos extends Component {
+class Projects extends Component {
     render() {
         return (
-            <div className="projects">
-                <Espanol />
-                <h1> Aqui irán mis proyectos</h1>
+            <div id='projects' className='content'>
+                <English />
+                <h1> Here will be my projects </h1>
             <ul>
                 <li>Burger Queen</li>
                 <li>Selectivo</li>
@@ -19,4 +19,4 @@ class Proyectos extends Component {
         )
     }
 }
-export default Proyectos;
+export default Projects;

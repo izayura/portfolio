@@ -4,13 +4,10 @@ import {withRouter} from "react-router-dom";
 class English extends Component {
     render() {
         return (
-            <div className='Menu'>
+            <nav className='Menu'>
                 <ul>
                     <li onClick={() => this.props.history.push('/')}>
                         Change Language
-                    </li>
-                    <li onClick={() => this.props.history.push('/english')}>
-                        Home
                     </li>
                     <li onClick={() => this.props.history.push('/english/aboutMe')}>
                         About Me
@@ -22,8 +19,7 @@ class English extends Component {
                         Contact
                     </li>
                 </ul>
-                <hr className="line" />
-                </div>
+                </nav>
                 );
             }
             }

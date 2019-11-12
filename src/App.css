@@ -1,10 +1,34 @@
+html, body{
+  height:100%;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+}
+
 @media only screen and (min-width: 800px){
   
 .Menu{
   background-color: indigo;
+  height: 10%;
+  width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
 }  
-.line{
-  color: aqua;
+.Menu li{
+  display:inline;
+  padding-left:3%;
+  padding-right:3%;
+}
+.content{
+  height:100%;
+  width: 100%;
+  position: absolute;
+  padding-top: 10%;
+  background: url('./Components/galaxy2.png');
+  background-size: cover;
+  background-position:  center center;
+  background-attachment: fixed;
 }
 }
 
