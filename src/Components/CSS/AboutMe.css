@@ -1,3 +1,49 @@
-#profile {
-  
+.profile {
+  background-color: #1a2a40;
+  color: #396090;
+  font-weight: bolder;
+  margin: 0 auto;
+  max-width: 1000px;
+  max-height: fit-content;
+  min-height: 100vh;
+  height: auto;
+  align-content: center;
+  text-align: center;
+}
+.profile li{
+  color:#b890c1;
+}
+.avatar{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 30%;
+  height: auto;
+  float: left;
+}
+section{
+  display: grid;    
+}
+.info{
+  float:right;
+  width: 60%;
+  height: auto;
+}
+.bio{
+  width: 100%;
+  height: auto;
+}
+.info h3{
+  color: #9b3ca2;
+}
+.softSkills{
+  float: left;
+  width: auto;
+  height: 50%;
+}
+.technicalSkills{
+  float: left;
+  width: auto;
+  height: 50%;
 }

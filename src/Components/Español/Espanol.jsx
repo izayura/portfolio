@@ -1,29 +1,31 @@
 import React, { Component } from 'react';
-import {withRouter} from "react-router-dom";
+import { withRouter } from "react-router-dom";
+import Avatar from '../avy2.png';
 
 class Espanol extends Component {
     render() {
         return (
             <nav className='Menu'>
                 <ul>
-                    <li onClick={() => this.props.history.push('/')}>
-                        Cambiar Idioma
-                    </li>
-                    <li onClick={() => this.props.history.push('/espanol/sobreMi')}>
+                    <li className='MenuNav' onClick={() => this.props.history.push('/english/aboutMe')}>
+                        <img className='MenuNav' id='avy' alt='Gloria Avatar' src={Avatar} />
                         Sobre Mi
                     </li>
-                    <li onClick={() => this.props.history.push('/espanol/proyectos')}>
+                    <li className='MenuNav' onClick={() => this.props.history.push('/english/projects')}>
                         Proyectos
                     </li>
-                    <li onClick={() => this.props.history.push('/espanol/contacto')}>
+                    <li className='MenuNav' onClick={() => this.props.history.push('/english/contact')}>
                         Contacto
                     </li>
+                    <li className='MenuNav' onClick={() => this.props.history.push('/')}>
+                        Cambiar_Idioma
+                    </li>
                 </ul>
-                </nav>
-                );
-            }
-            }
-            
-            
-            
-export default withRouter (Espanol);
+            </nav>
+        );
+    }
+}
+
+
+
+export default withRouter(Espanol);
