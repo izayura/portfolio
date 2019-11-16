@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1d6f24af.chunk.css",
-    "main.js": "/portfolio/static/js/main.8c041e67.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.8c041e67.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.a1c731c9.chunk.css",
+    "main.js": "/portfolio/static/js/main.9141c8ab.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9141c8ab.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6c1b9ebb.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6c1b9ebb.js.map",
-    "static/js/2.80b1ebc8.chunk.js": "/portfolio/static/js/2.80b1ebc8.chunk.js",
-    "static/js/2.80b1ebc8.chunk.js.map": "/portfolio/static/js/2.80b1ebc8.chunk.js.map",
+    "static/js/2.99ccb3df.chunk.js": "/portfolio/static/js/2.99ccb3df.chunk.js",
+    "static/js/2.99ccb3df.chunk.js.map": "/portfolio/static/js/2.99ccb3df.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.42dc058059687128c3296f6f2a5c7f72.js": "/portfolio/precache-manifest.42dc058059687128c3296f6f2a5c7f72.js",
+    "precache-manifest.593e1c7b6a9998c9b1cba1ba81f2ca35.js": "/portfolio/precache-manifest.593e1c7b6a9998c9b1cba1ba81f2ca35.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.1d6f24af.chunk.css.map": "/portfolio/static/css/main.1d6f24af.chunk.css.map",
+    "static/css/main.a1c731c9.chunk.css.map": "/portfolio/static/css/main.a1c731c9.chunk.css.map",
     "static/media/Home.css": "/portfolio/static/media/galaxy.a71d4cbf.png",
-    "static/media/App.css": "/portfolio/static/media/vaporwaveSmall.d4fc216d.jpg",
-    "static/media/name.png": "/portfolio/static/media/name.d04b35a9.png",
-    "static/media/select.png": "/portfolio/static/media/select.3d96ff51.png"
+    "static/media/App.css": "/portfolio/static/media/galaxy2.4039c7ff.png",
+    "static/media/avy2.png": "/portfolio/static/media/avy2.f667c1d6.png",
+    "static/media/name.png": "/portfolio/static/media/name.06c7c502.png",
+    "static/media/select.png": "/portfolio/static/media/select.6a1f1301.png"
   }
 }
