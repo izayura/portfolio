@@ -7,14 +7,14 @@ class Espanol extends Component {
         return (
             <nav className='Menu'>
                 <ul>
-                    <li className='MenuNav' onClick={() => this.props.history.push('/english/aboutMe')}>
+                    <li className='MenuNav' onClick={() => this.props.history.push('/espanol/sobreMi')}>
                         <img className='MenuNav' id='avy' alt='Gloria Avatar' src={Avatar} />
                         Sobre Mi
                     </li>
-                    <li className='MenuNav' onClick={() => this.props.history.push('/english/projects')}>
+                    <li className='MenuNav' onClick={() => this.props.history.push('/espanol/proyectos')}>
                         Proyectos
                     </li>
-                    <li className='MenuNav' onClick={() => this.props.history.push('/english/contact')}>
+                    <li className='MenuNav' onClick={() => this.props.history.push('/espanol/contacto')}>
                         Contacto
                     </li>
                     <li className='MenuNav' onClick={() => this.props.history.push('/')}>

@@ -37,6 +37,16 @@ section{
 .info h3{
   color: #9b3ca2;
 }
+.buttons{
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: center;
+}
+.buttons img{
+  width:  50%;
+  height: 100%;
+}
 .softSkills{
   float: left;
   width: auto;
