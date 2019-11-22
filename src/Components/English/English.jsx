@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
-import Avatar from '../avy2.png';
+import Avatar from '../Images/avy.png';
 
 class English extends Component {
     render() {

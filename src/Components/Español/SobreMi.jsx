@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import '../CSS/AboutMe.css';
 import Espanol from './Espanol';
-import Avatar from '../avy2.png';
-import LinkedinBtn from '../linkedinBtn.png';
-import GithubBtn from '../githubBtn.png';
+import Avatar from '../Images/avy.png';
+import LinkedinBtn from '../Images/linkedinBtn.png';
+import GithubBtn from '../Images/githubBtn.png';
 
 class SobreMi extends Component {
     render() {

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import '../Components/CSS/Home.css';
-import Name from './name.png';
-import English from './englishBtn.png';
-import Espanol from './espanolBtn.png';
-import Select from './select.png';
+import Name from './Images/name.png';
+import English from './Images/englishBtn.png';
+import Espanol from './Images/espanolBtn.png';
+import Select from './Images/select.png';
 
 class Home extends Component {
   render() {

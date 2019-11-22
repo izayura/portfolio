@@ -38,7 +38,7 @@ html, body{
   position: absolute;
   padding-top: 12%;
   padding-bottom: 10%;
-  background: url('./Components/galaxy2.png');
+  background: url('./Components/Images/galaxy2.png');
   background-size: cover;
   background-position:  center center;
   background-attachment: fixed;
@@ -73,7 +73,7 @@ html, body{
   width: 100%;
   position: absolute;
   padding-top: 25%;
-  background: url('./Components/galaxy2.png');
+  background: url('./Components/Images/galaxy2.png');
   background-size: cover;
   background-position:  center center;
   background-attachment: fixed;
