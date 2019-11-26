@@ -1,12 +1,15 @@
+#profile{
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
 .profile {
   background-color: #1a2a40;
   color: #396090;
   font-weight: bolder;
   margin: 0 auto;
-  max-width: 1000px;
-  max-height: fit-content;
-  min-height: 100vh;
-  height: auto;
+ width: 90%;
+ height: 80%;
   align-content: center;
   text-align: center;
 }
@@ -16,9 +19,9 @@
 .avatar{
   margin-top: 10%;
   margin-bottom: 10%;
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 30%;
+  margin-left: 6%;
+  margin-right: 6%;
+  width: 25%;
   height: auto;
   float: left;
 }
@@ -27,7 +30,7 @@ section{
 }
 .info{
   float:right;
-  width: 60%;
+  width: 55%;
   height: auto;
 }
 .bio{
@@ -47,13 +50,22 @@ section{
   width:  50%;
   height: 100%;
 }
+.skillsContainer{
+  display:flex;
+  justify-content: center;
+
+}
 .softSkills{
   float: left;
   width: auto;
-  height: 50%;
+  height: 48%;
 }
 .technicalSkills{
   float: left;
   width: auto;
-  height: 50%;
+  height: 48%;
+}
+.profile, .avatar, .info, .skillsContainer {
+  border-color: white;
+  border-style: groove;
 }

@@ -1,50 +1,64 @@
-body{
-  background: url('../Images/galaxy.png');
-  background-size: cover;
-  background-position:  center center;
-  background-attachment: fixed;
+body {
+	background: url('../Images/galaxy.png');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
 }
 
 @font-face {
-    font-family: 'Lazer84';
-    src: url('../Lazer84.ttf');
-    } 
-
-.Home{
-  justify-content: center;
-  text-align: center;
-  align-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 4%;
+	font-family: 'Lazer84';
+	src: url('../Lazer84.ttf');
 }
-@media only screen and (min-width: 800px){
-  #Name{
-    width: 50%;
-    height: 50%;
-  }
-#Select{
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width:  50%;
-  height: 50%;
+@media only screen and (orientation: portrait) {
+	#Alert {
+		display: block;
+		margin-top: 25%;
+		margin-bottom: 20%;
+		margin-right: 10%;
+		margin-left: 10%;
+		width: 80%;
+		height: 90%;
+	}
+	.Home {
+		display: none;
+	}
 }
-
-#Language{
-  display: flex;
-  justify-content: center;
-}
-
-}
-
-@media only screen and (max-width: 800px){
-    .name {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-  
-
+@media only screen and (orientation: landscape) {
+	#Alert {
+		display: none;
+	}
+	#Background {
+		background-size: cover;
+		width: 100%;
+		align-items: center;
+	}
+	.Home {
+		display: block;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		margin-right: 10%;
+		margin-left: 10%;
+		width: 80%;
+		height: 90%;
+	}
+	#Name {
+		display: flex;
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+	#Select {
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		height: 50%;
+	}
+	#Language {
+		display: flex;
+		justify-content: center;
+	}
+	.btnLanguage {
+		width: 20%;
+	}
 }

@@ -11,7 +11,7 @@ class SobreMi extends Component {
             <div id='profile' className='content'>
                 <Espanol />
                 <main className='profile'>
-                    <aside>
+                    <aside className='avyContainer'>
                         <img className='avatar' alt='Gloria Avatar' src={Avatar} />
                     </aside>
                     <aside className='info'>
@@ -22,32 +22,34 @@ class SobreMi extends Component {
                                 <a href='https://github.com/izayura'><img id='githubBtn' alt='GitHub' src={GithubBtn} /></a>
                             </section>
                         </section>
-                        <section className='softSkills'>
-                            <h3>Poderes</h3>
-                            <ul>
-                                <li>Organizada</li>
-                                <li>Proactiva</li>
-                                <li>Responsable</li>
-                                <li>Aptitudes de Liderazgo</li>
-                                <li>Rápido Autoaprendizaje</li>
-                                <li>Empática</li>
-                                <li>Adaptable</li>
-                                <li>Trabajo en equipo</li>
-                            </ul>
-                        </section>
-                        <section className='technicalSkills'>
-                            <h3>Equipamiento</h3>
-                            <ul>
-                                <li>Ingles B2</li>
-                                <li>JavaScript</li>
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>Firebase</li>
-                                <li>React</li>
-                                <li>Git</li>
-                                <li>Metodología Agil</li>
-                                <li>Photoshop Intermedio</li>
-                            </ul>
+                        <section className='skillsContainer'>
+                            <section className='softSkills'>
+                                <h3>Poderes</h3>
+                                <ul>
+                                    <li>Organizada</li>
+                                    <li>Proactiva</li>
+                                    <li>Responsable</li>
+                                    <li>Aptitudes de Liderazgo</li>
+                                    <li>Rápido Autoaprendizaje</li>
+                                    <li>Empática</li>
+                                    <li>Adaptable</li>
+                                    <li>Trabajo en equipo</li>
+                                </ul>
+                            </section>
+                            <section className='technicalSkills'>
+                                <h3>Equipamiento</h3>
+                                <ul>
+                                    <li>Ingles B2</li>
+                                    <li>JavaScript</li>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>Firebase</li>
+                                    <li>React</li>
+                                    <li>Git</li>
+                                    <li>Metodología Agil</li>
+                                    <li>Photoshop Intermedio</li>
+                                </ul>
+                            </section>
                         </section>
                     </aside>
                 </main>
