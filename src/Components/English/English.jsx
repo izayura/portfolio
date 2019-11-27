@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
-import Avatar from '../Images/avy.png';
 
 class English extends Component {
     render() {
@@ -8,8 +7,10 @@ class English extends Component {
             <div className='Menu'>
                 <ul>
                     <li className='MenuNav' onClick={() => this.props.history.push('/english/aboutMe')}>
-                        <img className='MenuNav' id='avy' alt='Gloria Avatar' src={Avatar} />
                         About Me
+                    </li>
+                    <li className='MenuNav' onClick={() => this.props.history.push('/english/skills')}> 
+                        Skills
                     </li>
                     <li className='MenuNav' onClick={() => this.props.history.push('/english/projects')}>
                         Projects

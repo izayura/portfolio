@@ -1,10 +1,4 @@
-var projects = {
-    "Title": "Projects for Portfolio",
-    "Name": "Gloria Ramírez Robles",
-    "Formed": 2019,
-    "Github": "https://github.com/izayura",
-    "Projects": [
-      {
+var ProjectsJSON = {
         "English": [
           {
             "image": "https://i.ibb.co/y846qCF/Nekoffee.jpg",
@@ -88,5 +82,5 @@ var projects = {
         }
       ]
     }
-  ]
-}
+
+export default ProjectsJSON;
