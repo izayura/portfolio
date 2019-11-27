@@ -1,6 +1,6 @@
 .ProjectCard {
-    background-color: #1a2a40;
-    display: flex;
+	background-color: #1a2a40;
+	display: flex;
 	float: left;
 	margin-left: 10%;
 	margin-right: 10%;
@@ -11,33 +11,43 @@
 	justify-content: center;
 	align-items: center;
 }
-.ImageCard{
-    float: left;
-    width: 25%;
-    align-items: center;
+.ImageCard {
+	float: left;
+	width: 25%;
+	align-items: center;
 }
-.ImageCard img{
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
-    float: left;
-    border-color: white;
+.ImageCard img {
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	float: left;
+	border-color: white;
 	border-style: double;
 }
-.BodyCard{
+.BodyCard {
     justify-content: center;
-    align-items: center;
-    color: #396090;
-    font-weight: bold;
-    font-size: 2vw;
-    float: left;
-    width: 70%;
-    margin: auto;
+	align-items: center;
+	color: #396090;
+	font-weight: bold;
+	font-size: 2vw;
+	float: left;
+	width: 70%;
+	margin: auto;
 }
 .BodyCard h1 {
-    color: #9b3ca2;
-    font-family: ArcadeClassic;
+	color: #90486f;
+	font-family: ArcadeClassic;
+	text-align: center;
+	width: 100%;
+	font-size: 3.5vw;
+}
+.BtnContainer{
     text-align: center;
-    width: 100%;
-    font-size: 3.5vw;
+}
+.ProjectBtn {
+    text-align: center;
+	width: 20%;
+    height: 100%;
+    padding-left:5%;
+    padding-right:5%;
 }

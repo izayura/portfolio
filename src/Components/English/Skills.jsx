@@ -30,7 +30,7 @@ class Skills extends Component {
                             <li>CSS3</li>
                             <li>Firebase</li>
                             <li>React</li>
-                            <li>Git</li>
+                            <li>Git/GitHub</li>
                             <li>Agile Methodology</li>
                             <li>Photoshop</li>
                         </ul>

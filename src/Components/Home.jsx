@@ -5,13 +5,13 @@ import Name from './Images/name.png';
 import English from './Images/englishBtn.png';
 import Espanol from './Images/espanolBtn.png';
 import Select from './Images/select.png';
-import Horizontal from './Images/horizontal.png';
+import Rotate from './Images/rotate.gif';
 
 class Home extends Component {
   render() {
     return (
       <div id='Background'>
-        <img id='Alert' alt='Por favor, coloca tu dispositivo en horizontal' src={Horizontal} />
+        <img id='Alert' alt='Por favor, coloca tu dispositivo en horizontal' src={Rotate} />
         <div className="Home">
           <img id='Name' alt='Gloria Ramirez' src={Name} />
           <img id='Select' alt='Select your language' src={Select} />

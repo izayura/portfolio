@@ -22,16 +22,18 @@ li, Link, ul {
   position: fixed;
   border-bottom-color: white;
   border-bottom-style: double;
+  justify-content: center;
+	align-items: center;
 }  
 .Menu li{
   display:inline;
   padding-left:2%;
   padding-right:2%;
   font-family: ArcadeClassic;
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 .content{
-  height:max-content;
+  height: max-content;
   width: 100%;
   position: absolute;
   padding-top: 12%;

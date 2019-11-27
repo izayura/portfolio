@@ -8,7 +8,6 @@
     text-align: center;
     border-color: white;
     border-style: double;
-    justify-content: center;
     align-items: center;
 }
 .skillsContainer h3 {
@@ -17,6 +16,7 @@
     font-size: 3.5vw;
 }
 .skillsContainer li{
+    text-align: start;
     color:#b890c1;
     font-weight: bolder;
     font-size: 2.2vw;

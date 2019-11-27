@@ -3,7 +3,7 @@ var ProjectsJSON = {
           {
             "image": "https://i.ibb.co/y846qCF/Nekoffee.jpg",
             "name": "Burger Queen(Front End)",
-            "description": "This is a web-app for tablets that can be used to create, edit and cancel orders and send the command corresponding to the Coffee Bar area. It has security with a token so you need the correct password to enter(password: neko).",
+            "description": "(PASSWORD: neko)This is a web-app for tablets that can be used to create, edit and cancel orders and send the command corresponding to the Coffee Bar area. It has security with a token so you need the correct password to enter.",
             "tools": [
               "React",
               "JavaScript",
@@ -27,24 +27,23 @@ var ProjectsJSON = {
               "demo": "https://izayura.github.io/Check-inLoveGDL/src/",
           },
           {
-            "image": "https://i.ibb.co/y846qCF/Nekoffee.jpg",
-            "name": "Princess Lafoo Across The Universe",
-            "description": "This is a game for desktop, made with bla,bla,bla, where you control Lafoo, who has to find the pieces to repair her spaceship and return to her planet. But be careful, if something hit you, you lose one of your 3 lives.",
+            "image": "https://i.ibb.co/txxrNbs/Cinephile.jpg",
+            "name": "Cinephile Odyssey",
+            "description": "It is a Web-App where we use the OMDb API (The Open Movie Database) for show to the user some technical data about a selection of cult films, also the user can get a random recommendation from the selection.",
             "tools": [
               "JavaScript",
               "HTML5",
-              "CSS3",
-              "C#"
+              "CSS3"
             ],
-              "code": "Aqui irá la de GitHub",
-              "demo": "Y aqui donde se podrá jugar",
+              "code": "https://github.com/izayura/GDL003-movie-challenge",
+              "demo": "https://nienorloth.github.io/GDL003-movie-challenge/src/",
           }
       ],
       "Español": [
         {
           "image": "https://i.ibb.co/y846qCF/Nekoffee.jpg",
           "name": "Burger Queen(Front End)",
-          "description": "Es una Web-app para tablets donde se pueden crear, editar y cancelar ordenes y mandar la comanda al area correspondiente de Coffee Bar. Tiene seguridad por medio de un token así que se necesita la contraseña correcta para ingresar(contraseña: neko).",
+          "description": "(CONTRASEÑA: neko)Es una Web-app para tablets donde se pueden crear, editar y cancelar ordenes y mandar la comanda al area correspondiente de Coffee Bar. Tiene seguridad por medio de un token así que se necesita la contraseña correcta para ingresar.",
           "tools": [
             "React",
             "JavaScript",
@@ -68,17 +67,16 @@ var ProjectsJSON = {
             "demo": "https://izayura.github.io/Check-inLoveGDL/src/",
         },
         {
-          "image": "https://i.ibb.co/y846qCF/Nekoffee.jpg",
-          "name": "Princess Lafoo Across The Universe",
-          "description": "Este es un juego para desktop hecho con bla,bla,bla, donde puedes controlar a Lafoo, quien tiene que encontrar las piezas para reparar su nave y regresar a su planeta. Pero ten cuidado, si algo choca contigo, pierdes una de tus 3 vidas.",
+          "image": "https://i.ibb.co/txxrNbs/Cinephile.jpg",
+          "name": "Cinephile Odyssey",
+          "description": "Es una Web-App donde por medio de la API de OMDb(The Open Movie Database) se muestran al usuario algunos datos técnicos sobre una selección de películas de culto, a su vez el usuario puede obtener una recomendación al azar de esta misma selección.",
           "tools": [
             "JavaScript",
             "HTML5",
-            "CSS3",
-            "C#"
+            "CSS3"
           ],
-            "code": "Aqui irá la de GitHub",
-            "demo": "Y aqui donde se podrá jugar",
+            "code": "https://github.com/izayura/GDL003-movie-challenge",
+            "demo": "https://nienorloth.github.io/GDL003-movie-challenge/src/",
         }
       ]
     }

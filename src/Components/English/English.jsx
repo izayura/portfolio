@@ -7,7 +7,7 @@ class English extends Component {
             <div className='Menu'>
                 <ul>
                     <li className='MenuNav' onClick={() => this.props.history.push('/english/aboutMe')}>
-                        About Me
+                        About_Me
                     </li>
                     <li className='MenuNav' onClick={() => this.props.history.push('/english/skills')}> 
                         Skills

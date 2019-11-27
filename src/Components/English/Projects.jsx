@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import '../CSS/Projects.css';
 import English from './English';
 import ProjectsJSON from '../projectsJSON.js';
+import Code from '../Images/codeBtn.png';
+import Demo from '../Images/demoBtn.png';
 
 class Projects extends Component {
     constructor() {
@@ -23,8 +25,10 @@ class Projects extends Component {
                         <section className='BodyCard'>
                             <h1>{project.name}</h1>
                             <p>{project.description}</p>
-                            <a href={project.code}>Code</a>
-                            <a href={project.demo}>Demo</a>
+                            <section className='BtnContainer'>
+                                <a href={project.code}><img className='ProjectBtn' alt='Code' src={Code} /></a>
+                                <a href={project.demo}><img className='ProjectBtn' alt='Demo' src={Demo} /></a>
+                            </section>
                         </section>
                     </section>
                 ))
