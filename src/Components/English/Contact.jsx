@@ -19,7 +19,7 @@ class Contact extends Component {
                                 <a href='http://www.linkedin.com/in/gloria-rmz-robles'><img id='LinkedIn' alt='LinkedIn' src={LinkedIn} />LinkedIn</a>
                             </li>
                             <li>
-                                <a href='mailto:izayura@gmail.com'><img id='gmail' alt='Gmail' src={Gmail} />izayura@gmail.com </a>
+                                <a href='mailto:izayura@gmail.com'><img id='gmail' alt='Gmail' src={Gmail} />izayura@gmail.com</a>
                             </li>
                             <li>
                                 <a href='https://github.com/izayura'><img id='github' alt='GitHub' src={GitHub} />GitHub</a>

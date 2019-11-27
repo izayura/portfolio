@@ -1,8 +1,3 @@
-#skills{
-    background-size: cover;
-    width: 100%;
-  }
-
 .skillsContainer {
 	background-color: #1a2a40;
     display: flex;
@@ -19,12 +14,12 @@
 .skillsContainer h3 {
     color: #9b3ca2;
     font-family: ArcadeClassic;
-    font-size: 150%;
+    font-size: 3.5vw;
 }
 .skillsContainer li{
     color:#b890c1;
     font-weight: bolder;
-    font-size: 120%;
+    font-size: 2.2vw;
   }
 .softSkills {
 	float: left;

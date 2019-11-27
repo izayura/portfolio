@@ -29,6 +29,7 @@
     align-items: center;
     color: #396090;
     font-weight: bold;
+    font-size: 2vw;
     float: left;
     width: 70%;
     margin: auto;
@@ -38,5 +39,5 @@
     font-family: ArcadeClassic;
     text-align: center;
     width: 100%;
-    font-size: 180%;
+    font-size: 3.5vw;
 }
