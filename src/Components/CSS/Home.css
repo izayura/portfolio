@@ -5,26 +5,23 @@ body {
 	background-attachment: fixed;
 }
 
-@font-face {
-	font-family: 'Lazer84';
-	src: url('../Lazer84.ttf');
-}
 @media only screen and (orientation: portrait) {
 	#Alert {
 		display: block;
 		justify-content: center;
 		align-items: center;
 		margin-top: 30%;
-		width: 100%;
-		height: 100%;
 	}
-	.Home {
+	.Home, .content {
 		display: none;
 	}
 }
 @media only screen and (orientation: landscape) {
 	#Alert {
 		display: none;
+	}
+	.content{
+		display: block;
 	}
 	#Background {
 		background-size: cover;

@@ -38,6 +38,7 @@ li, Link, ul {
   position: absolute;
   padding-top: 12%;
   padding-block: 10%;
+  border-bottom: 5%;
   background: url('./Components/Images/galaxy2.png');
   background-size: cover;
   background-position:  center center;
