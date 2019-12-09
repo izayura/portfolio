@@ -23,13 +23,13 @@ class Contact extends Component {
                                     <a href='http://www.linkedin.com/in/gloria-rmz-robles'><img id='LinkedIn' alt='LinkedIn' src={LinkedIn} />LinkedIn</a>
                                 </li>
                                 <li>
-                                    <a href='mailto:izayura@gmail.com'><img id='gmail' alt='Gmail' src={Gmail} />izayura@gmail.com</a>
+                                    <a href='mailto:izayura@gmail.com'><img id='gmail' alt='Gmail' src={Gmail} />Email</a>
                                 </li>
                                 <li>
                                     <a href='https://github.com/izayura'><img id='github' alt='GitHub' src={GitHub} />GitHub</a>
                                 </li>
                                 <li>
-                                    <a href="https://drive.google.com/file/d/1Z3-73Xl9RHDR2HIblfoYop_zZXF4jufX/view"><img id='cv' alt='CV' src={CV} />Look at my CV</a>
+                                    <a href="https://drive.google.com/file/d/1Z3-73Xl9RHDR2HIblfoYop_zZXF4jufX/view"><img id='cv' alt='CV' src={CV} />Look my CV</a>
                                 </li>
                             </ul>
                         </section>
