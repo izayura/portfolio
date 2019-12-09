@@ -37,6 +37,19 @@ var ProjectsJSON = {
             ],
               "code": "https://github.com/izayura/GDL003-movie-challenge",
               "demo": "https://nienorloth.github.io/GDL003-movie-challenge/src/",
+          },
+          {
+            "image": "https://i.ibb.co/3MPWw3q/portfolio.jpg",
+            "name": "My Portfolio",
+            "description": "This Web-App was created to publicize some of my work and relevant data about me so the developer community and recruiters could have a preliminary idea about my work. The theme and style is based on classic 8-bit video games",
+            "tools": [
+              "React",
+              "JavaScript",
+              "HTML5",
+              "CSS3"
+            ],
+              "code": "https://github.com/izayura/portfolio",
+              "demo": "https://izayura.github.io/portfolio/#/",
           }
       ],
       "Español": [
@@ -77,6 +90,19 @@ var ProjectsJSON = {
           ],
             "code": "https://github.com/izayura/GDL003-movie-challenge",
             "demo": "https://nienorloth.github.io/GDL003-movie-challenge/src/",
+        },
+        {
+          "image": "https://i.ibb.co/3MPWw3q/portfolio.jpg",
+          "name": "Mi portafolio",
+          "description": "Esta Web-App fue creada para dar a conocer algunos de mis trabajos y datos relevantes acerca de mi para que la comunidad de desarrolladores y los reclutadores tengan una idea preliminar sobre mi trabajo. La temática y estilo se basa en los videojuegos clásicos de 8 bits.",
+          "tools": [
+            "React",
+            "JavaScript",
+            "HTML5",
+            "CSS3"
+          ],
+            "code": "https://github.com/izayura/portfolio",
+            "demo": "https://izayura.github.io/portfolio/#/",
         }
       ]
     }

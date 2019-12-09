@@ -5,6 +5,7 @@ import textContact from '../Images/textContact.png';
 import LinkedIn from '../Images/linkedin.png';
 import GitHub from '../Images/github.png';
 import Gmail from '../Images/gmail.png';
+import CV from '../Images/cv.png';
 import Landscape from '../Landscape';
 
 class Contact extends Component {
@@ -26,6 +27,9 @@ class Contact extends Component {
                                 </li>
                                 <li>
                                     <a href='https://github.com/izayura'><img id='github' alt='GitHub' src={GitHub} />GitHub</a>
+                                </li>
+                                <li>
+                                    <a href="https://drive.google.com/file/d/1Z3-73Xl9RHDR2HIblfoYop_zZXF4jufX/view"><img id='cv' alt='CV' src={CV} />Look at my CV</a>
                                 </li>
                             </ul>
                         </section>
