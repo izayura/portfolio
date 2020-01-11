@@ -22,6 +22,8 @@ class Skills extends Component {
                                 <li>Empathic</li>
                                 <li>Adaptable</li>
                                 <li>Teamwork</li>
+                                <li>Disciplined</li>
+                                <li>Good Communication</li>
                             </ul>
                         </section>
                         <section className='technicalSkills'>

@@ -23,6 +23,8 @@ class Habilidades extends Component {
                                     <li>Empática</li>
                                     <li>Adaptable</li>
                                     <li>Trabajo en equipo</li>
+                                    <li>Disciplinada</li>
+                                    <li>Buena Comunicación</li>
                                 </ul>
                             </section>
                             <section className='technicalSkills'>
