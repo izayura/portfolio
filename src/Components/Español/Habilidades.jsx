@@ -36,6 +36,8 @@ class Habilidades extends Component {
                                     <li>CSS3</li>
                                     <li>Firebase</li>
                                     <li>React</li>
+                                    <li>Node.js</li>
+                                    <li>NPM</li>
                                     <li>Git/GitHub</li>
                                     <li>Metodología Agil</li>
                                     <li>Photoshop Intermedio</li>

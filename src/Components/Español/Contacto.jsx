@@ -29,7 +29,7 @@ class Contacto extends Component {
                                     <a href='https://github.com/izayura'><img id='github' alt='GitHub' src={GitHub} />GitHub</a>
                                 </li>
                                 <li>
-                                    <a href="https://drive.google.com/file/d/1suQOQJUpFFTKiPYXKm1ued5MlqMung4Y/view"><img id='cv' alt='CV' src={CV} />Mira mi CV</a>
+                                    <a href="https://drive.google.com/file/d/16Nc50nZVEi84pvztL7KYZ5yWU4oN-4gC/view"><img id='cv' alt='CV' src={CV} />Mira mi CV</a>
                                 </li>
                             </ul>
                         </section>
